@@ -9,7 +9,7 @@ function objUp(){
     object.style.top = '0px';
 }
 
-function botDown(){
+function objDown(){
     var object = document.getElementById("obj");
     object.style.top = '100px';
 }
