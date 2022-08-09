@@ -1,15 +1,15 @@
 
 var socket = io();
 
-socket.on('botup', () => {botUp()});
-socket.on('botdown', () => {botDown()});
+socket.on('objup', () => {objUp()});
+socket.on('objdown', () => {objDown()});
 
-function botUp(){
-    var bot = document.getElementById("bot");
-    bot.style.top = '0px';
+function objUp(){
+    var object = document.getElementById("obj");
+    object.style.top = '0px';
 }
 
 function botDown(){
-    var bot = document.getElementById("bot");
-    bot.style.top = '100px';
+    var object = document.getElementById("obj");
+    object.style.top = '100px';
 }
