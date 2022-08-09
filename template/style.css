@@ -1,6 +1,6 @@
 .obj{
     position: absolute;
-    transition: top 0.4s cubic-bezier(0.25, 0.1, 0.25, 1.0);;
+    transition: top 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
     left: 0px;
-    top: 100px;
+    top: 250px;
 }

@@ -11,5 +11,5 @@ function objUp(){
 
 function objDown(){
     var object = document.getElementById("obj");
-    object.style.top = '100px';
+    object.style.top = '250px';
 }
