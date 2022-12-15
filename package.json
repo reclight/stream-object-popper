@@ -4,8 +4,7 @@
   "description": "Overlay komi",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "build": "react-scripts build"
+    "start": "node bot.js"
   },
   "keywords": [
     "example",
