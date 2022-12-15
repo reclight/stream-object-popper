@@ -4,7 +4,8 @@
   "description": "Overlay komi",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "build": "react-scripts build"
   },
   "keywords": [
     "example",
@@ -15,7 +16,8 @@
   "dependencies": {
     "express": "^4.9.8",
     "socket.io": "^4.4.1",
-    "socket.io-client": "^4.4.1"
+    "socket.io-client": "^4.4.1",
+    "react-scripts": "^3.4.0"
   },
   "engines": {
     "node": "14.x"
