@@ -8,7 +8,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json ./
 
 #Install Packages
-RUN npm install express --save
+RUN npm install
 
 #Copy the app
 COPY . ./
